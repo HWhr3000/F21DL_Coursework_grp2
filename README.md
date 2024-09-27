@@ -16,8 +16,8 @@ Research Objectives
 
 	•	Objective 1: Predict the level of satisfaction a passenger will have based on their ratings for services like Seat comfort, Food and drink, In-flight Wifi, Baggage handling, etc.
 	•	Objective 2: Use the data to identify which service areas (e.g., Food and drink, In-flight entertainment, Cleanliness, etc.) correlate most with lower satisfaction scores, and provide actionable insights for improvement.
-	 •	Objective 3: Determine whether factors like age, gender, or customer type (First-time vs Returning customers) result in different satisfaction levels.
-	 •	Objective 4: Determine the satisfaction outcome based on the image of a person taking the survey
+	•	Objective 3: Determine whether factors like age, gender, or customer type (First-time vs Returning customers) result in different satisfaction levels.
+	•	Objective 4: Determine the satisfaction outcome based on the image of a person taking the survey
 
 Project Milestones
 
