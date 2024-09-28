@@ -122,7 +122,7 @@
   3. **Step 3**: Visualize data trends and perform feature engineering.
 
 ### Requirement Descriptions (R2–R5)
-- **R2**: **Prediction Outputs**: propser 
+- **R2**: **Prediction Outputs**:  
 - **R3**: **Prediction Inputs**: 
 - **R4/R5**: **Results**:
   - Results: 
