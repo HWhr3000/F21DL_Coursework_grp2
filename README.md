@@ -15,7 +15,7 @@
 ### Research Objectives
 1. **Objective 1**: Predict the level of satisfaction a passenger will have based on their ratings for services like Seat comfort, Food and drink, In-flight Wifi, Baggage handling, etc.
 2. **Objective 2**: Identify which service areas (e.g., Food and drink, In-flight entertainment, Cleanliness, etc.) correlate most with lower satisfaction scores, and provide actionable insights for improvement.
-3. **Objective 3**: Determine whether factors like age, gender, or customer type (First-time vs Returning customers) result in different satisfaction levels.
+3. **Objective 3**: Determine whether factors like age, gender, or customer type (First-time vs Returning customers) result in different satisfaction levels. Cluster the data based on the data.
 4. **Objective 4**: Determine the satisfaction outcome based on the image of a person taking the survey.
 
 ### Project Milestones
@@ -24,11 +24,11 @@
   - Complete initial exploratory data analysis and problem identification.
   
 - **R2**: Data Analysis and Preprocessing (Week 3 & 4)
-  - Perform data cleaning, handle missing values, and transform features.
+  - Perform data cleaning, handle missing values and transform features.
   - Visualize relationships and identify important patterns.
   
 - **R3**: Clustering (Week 4 & 5)
-  - Use clustering algorithms (e.g., K-Means) to segment passengers based on similar characteristics and satisfaction levels.
+  - Use clustering algorithms to segment passengers based on similar characteristics and satisfaction levels.
   - Evaluate clustering results using silhouette scores.
   
 - **R4**: Baseline Training and Evaluation (Week 6 & 7)
@@ -48,8 +48,8 @@
 - **True Source**: Data is taken from Kaggle
 - **License**: [Original license for each source]
 - **Examples from Dataset**:
-  - **Example 1**: (Provide two specific examples)
-  - **Example 2**: (Another example nicely formatted)
+  - **Example 1**: 
+  - **Example 2**: 
   
 - **Additional Steps**:
   - Any steps taken during data collection to expand the dataset.
