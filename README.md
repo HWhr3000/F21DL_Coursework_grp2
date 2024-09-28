@@ -48,12 +48,66 @@
 - **True Source**: Data is taken from Kaggle
 - **License**: [Original license for each source]
 - **Examples from Dataset**:
-  - **Example 1**: 
-  - **Example 2**: 
+  - **Example 1**:
+         #   Column                                  Non-Null Count   Dtype  
+        ---  ------                                  --------------   -----  
+         0   ID                                      129880 non-null  int64  
+         1   Gender                                  129880 non-null  object 
+         2   Age                                     129880 non-null  int64  
+         3   Customer Type                           129880 non-null  object 
+         4   Type of Travel                          129880 non-null  object 
+         5   Class                                   129880 non-null  object 
+         6   Flight Distance                         129880 non-null  int64  
+         7   Departure Delay                         129880 non-null  int64  
+         8   Arrival Delay                           129487 non-null  float64
+         9   Departure and Arrival Time Convenience  129880 non-null  int64  
+         10  Ease of Online Booking                  129880 non-null  int64  
+         11  Check-in Service                        129880 non-null  int64  
+         12  Online Boarding                         129880 non-null  int64  
+         13  Gate Location                           129880 non-null  int64  
+         14  On-board Service                        129880 non-null  int64  
+         15  Seat Comfort                            129880 non-null  int64  
+         16  Leg Room Service                        129880 non-null  int64  
+         17  Cleanliness                             129880 non-null  int64  
+         18  Food and Drink                          129880 non-null  int64  
+         19  In-flight Service                       129880 non-null  int64  
+         20  In-flight Wifi Service                  129880 non-null  int64  
+         21  In-flight Entertainment                 129880 non-null  int64  
+         22  Baggage Handling                        129880 non-null  int64  
+         23  Satisfaction                            129880 non-null  object 
+  - **Example 2**:
+        Data columns (total 25 columns):
+         #   Column                             Non-Null Count   Dtype  
+        ---  ------                             --------------   -----  
+         0   Unnamed: 0                         103904 non-null  int64  
+         1   id                                 103904 non-null  int64  
+         2   Gender                             103904 non-null  object 
+         3   Customer Type                      103904 non-null  object 
+         4   Age                                103904 non-null  int64  
+         5   Type of Travel                     103904 non-null  object 
+         6   Class                              103904 non-null  object 
+         7   Flight Distance                    103904 non-null  int64  
+         8   Inflight wifi service              103904 non-null  int64  
+         9   Departure/Arrival time convenient  103904 non-null  int64  
+         10  Ease of Online booking             103904 non-null  int64  
+         11  Gate location                      103904 non-null  int64  
+         12  Food and drink                     103904 non-null  int64  
+         13  Online boarding                    103904 non-null  int64  
+         14  Seat comfort                       103904 non-null  int64  
+         15  Inflight entertainment             103904 non-null  int64  
+         16  On-board service                   103904 non-null  int64  
+         17  Leg room service                   103904 non-null  int64  
+         18  Baggage handling                   103904 non-null  int64  
+         19  Checkin service                    103904 non-null  int64  
+         20  Inflight service                   103904 non-null  int64  
+         21  Cleanliness                        103904 non-null  int64  
+         22  Departure Delay in Minutes         103904 non-null  int64  
+         23  Arrival Delay in Minutes           103594 non-null  float64
+         24  satisfaction                       103904 non-null  object 
   
 - **Additional Steps**:
-  - Any steps taken during data collection to expand the dataset.
-  - Any metrics associated with these steps (if applicable).
+  - Arrival Delay column contains null values.
+  - Mean values is taken for filling the null values in this dataset
 
 ### Data Preparation Pipeline
 - **Overview**:
@@ -68,6 +122,9 @@
 - **R4/R5**: **Results**:
   - Results: (Provide results after implementing your models.)
 
-### File/Folder Structure
-- **File 1**: Description and purpose.
-- **Folder 1**: Purpose of the folder.
+### File / Folder Structure
+- **data**: The dataset are stored in this folder where there are two dataset stored containing excel sheets with airline survey.
+- **documentation**: The documentation folder contains weekly data.
+- **Notebooks**: All working Jupitor notebooks are kept here. These are loaded by individuals with separate trials run during weeks
+- **scripts**: Final Scripts are placed in this folder, the script is udpated as and when the finaliation is done.
+- **README.md**: Contains details of the project.
