@@ -42,11 +42,16 @@
 ### Dataset Information
 - **Source of Dataset(s)**:
   - [Airline Passenger Satisfaction Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data)
+     - True Source: https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
+     - License: unknown
   - [Airline Passenger Satisfaction (Alternative)](https://www.kaggle.com/datasets/mysarahmadbhat/airline-passenger-satisfaction/data)
+     -  True Source: https://creativecommons.org/publicdomain/zero/1.0/
+     -  License: No Copyright
   - [VGGFace2 Dataset](https://www.kaggle.com/datasets/hearfool/vggface2/data)
+     -  True Source: Unknown
+     -  License: Unknown 
   
 - **True Source**: Data is taken from Kaggle
-- **License**: [Original license for each source]
 - **Examples from Dataset**:
   - **Example 1**:
          #   Column                                  Non-Null Count   Dtype  
@@ -113,14 +118,14 @@
 - **Overview**:
   Describe the steps of your data preparation pipeline:
   1. **Step 1**: Load the dataset and inspect for missing values.
-  2. **Step 2**: Handle missing data and normalize the features.
+  2. **Step 2**: Populate null data by updating it with mean value and normalize the features.
   3. **Step 3**: Visualize data trends and perform feature engineering.
 
 ### Requirement Descriptions (R2–R5)
-- **R2**: **Prediction Outputs**: A short description of what your model is predicting.
-- **R3**: **Prediction Inputs**: A short description of what your model uses to predict the outputs.
+- **R2**: **Prediction Outputs**: propser 
+- **R3**: **Prediction Inputs**: 
 - **R4/R5**: **Results**:
-  - Results: (Provide results after implementing your models.)
+  - Results: 
 
 ### File / Folder Structure
 - **data**: The dataset are stored in this folder where there are two dataset stored containing excel sheets with airline survey.
