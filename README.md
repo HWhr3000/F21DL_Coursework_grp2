@@ -44,12 +44,15 @@
   - [Airline Passenger Satisfaction Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data)
      - True Source: https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
      - License: unknown
+     - File name: airline_passenger_satisfaction.csv
   - [Airline Passenger Satisfaction (Alternative)](https://www.kaggle.com/datasets/mysarahmadbhat/airline-passenger-satisfaction/data)
      -  True Source: https://creativecommons.org/publicdomain/zero/1.0/
      -  License: No Copyright
-  - [VGGFace2 Dataset](https://www.kaggle.com/datasets/hearfool/vggface2/data)
+     -  File Name: train.csv & test.scv
+  - [VGGFace2 Dataset](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)
      -  True Source: Unknown
-     -  License: Unknown 
+     -  License: Unknown
+     -  Folder name: "train" & "Validate" folders
   
 - **True Source**: Data is taken from Kaggle
 - **Examples from Dataset**:
@@ -128,7 +131,10 @@
   - Results: 
 
 ### File / Folder Structure
-- **data**: The dataset are stored in this folder where there are two dataset stored containing excel sheets with airline survey.
+- **data**: The dataset are stored in this folder where there are three dataset stored containing excel sheets & images of airline survey.
+          1   airline_passenger_satisfaction.csv - Contains dataset 1
+          2   test.csv & train.csv - Contains dataset 2
+          3   folders train & validate contains image dataset.
 - **documentation**: The documentation folder contains weekly data.
 - **Notebooks**: All working Jupitor notebooks are kept here. These are loaded by individuals with separate trials run during weeks
 - **scripts**: Final Scripts are placed in this folder, the script is udpated as and when the finaliation is done.
