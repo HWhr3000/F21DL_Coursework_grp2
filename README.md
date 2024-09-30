@@ -132,9 +132,9 @@
 
 ### File / Folder Structure
 - **data**: The dataset are stored in this folder where there are three dataset stored containing excel sheets & images of airline survey.
-    - 1   airline_passenger_satisfaction.csv - Contains dataset 1
-    - 2   test.csv & train.csv - Contains dataset 2
-    - 3   folders train & validate contains image dataset.
+    - airline_passenger_satisfaction.csv - Contains dataset 1
+    - test.csv & train.csv - Contains dataset 2
+    - folders train & validate contains image dataset.
 - **documentation**: The documentation folder contains weekly data.
 - **Notebooks**: All working Jupitor notebooks are kept here. These are loaded by individuals with separate trials run during weeks
 - **scripts**: Final Scripts are placed in this folder, the script is udpated as and when the finaliation is done.
