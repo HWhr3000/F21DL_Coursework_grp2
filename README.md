@@ -36,7 +36,7 @@
   - Evaluate models using accuracy, precision, recall, and F1-score.
   
 - **R5**: Neural Networks (Week 8 & 9)
-  - Implement Multi-Layer Perceptron (MLP) for satisfaction prediction.
+  - Implement Multi-Layer Perceptron (MLP), CNN, SGD for satisfaction prediction.
   - Fine-tune the model and compare its performance with the baseline models.
 
 ### Dataset Information
