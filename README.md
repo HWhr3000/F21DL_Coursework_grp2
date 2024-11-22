@@ -117,25 +117,35 @@
   - Arrival Delay column contains null values.
   - Mean values is taken for filling the null values in this dataset
 
-### Data Preparation Pipeline
-- **Overview**:
-  Describe the steps of your data preparation pipeline:
-  1. **Step 1**: Load the dataset and inspect for missing values.
-  2. **Step 2**: Populate null data by updating it with mean value and normalize the features.
-  3. **Step 3**: Visualize data trends and perform feature engineering.
-
 ### Requirement Descriptions (R2–R5)
 - **R2**: **Prediction Outputs**:  
 - **R3**: **Prediction Inputs**: 
 - **R4/R5**: **Results**:
-  - Results: 
+
+  **Tabular Data**
+  ![image](https://github.com/user-attachments/assets/3bb82fa7-c30f-4468-96a3-0906ba15354f)
+Analysis Using Keras Perceptron Function with 10-Fold Cross-Validation and Evaluation Metrics
+When validation is performed across the entire dataset, it gives an accuracy of 94%; as against 91% by cross-validation on the selected feature set.
+
+![image](https://github.com/user-attachments/assets/1e56bccf-0a3a-4083-b37b-1c80c19956a9)
+We Experimented with different parameters that affect the learning process, such as learning rate, the number and size of layers, number of iterations, batch size, epochs.
+
+Architecture 6 provides the best balance of high accuracy, specificity, sensitivity, and precision.
+
+![image](https://github.com/user-attachments/assets/de7f7d2f-ce3c-441f-a8df-7643d1353847)
+
+All classifiers seem to generalize reasonably well to new data. The models are not overfitting, as they perform similarly on unseen test data.
+
+  **Image Data**
+  ![image](https://github.com/user-attachments/assets/13708666-4aab-4685-800a-19dd2ab45734)
+**The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data. Despite its superior performance, there is still room for improvement, particularly in reducing false positive rates for dominant classes like happy. Further optimization, such as deeper architectures or transfer learning, could enhance results.
 
 ### File / Folder Structure
 - **data**: The dataset are stored in this folder where there are three dataset stored containing excel sheets & images of airline survey.
     - airline_passenger_satisfaction.csv - Contains dataset 1
     - test.csv & train.csv - Contains dataset 2
     - folders train & validate contains image dataset.
+    - Models
 - **documentation**: The documentation folder contains weekly data.
 - **Notebooks**: All working Jupitor notebooks are kept here. These are loaded by individuals with separate trials run during weeks
-- **scripts**: Final Scripts are placed in this folder, the script is udpated as and when the finaliation is done.
 - **README.md**: Contains details of the project.
