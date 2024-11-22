@@ -117,14 +117,16 @@
   - Arrival Delay column contains null values.
   - Mean values is taken for filling the null values in this dataset
 
-### Requirement Descriptions (R2–R5)
-- **R2**: **Prediction Outputs**:  
-- **R3**: **Prediction Inputs**: 
+### Requirement Descriptions (R4–R5)
 - **R4/R5**: **Results**:
 
-  Decision Trees
+**Decision Trees**
 ![image](https://github.com/user-attachments/assets/f942477c-f6cd-4aaf-b3e7-b11299b2c92a)
 The Decision Tree is with best parameters from Grid Search results. We observed that Tree 1 demonstrates a slightly better balance of precision, recall, and F1 score, although it has slightly lower test accuracy. Tree 2 performs equally well in terms of test accuracy compared to Tree 3, but it offers slightly better precision and recall. Tree 3, on the other hand, lags slightly in both precision and F1 score, making it a less optimal choice overall.
+
+**Logistic Regression**
+![Logistic regression](https://github.com/user-attachments/assets/bcd7d541-08bb-45f6-b731-cc3b7f969fe3)
+
 
 **Bayes Net Algorithm**
   ![image](https://github.com/user-attachments/assets/22cd1125-d1f7-499a-8027-d3aab339d110)
