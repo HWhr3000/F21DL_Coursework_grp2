@@ -6,11 +6,11 @@
 - **Group Name**: Dubai_PG 2 Dubai_PG
 - **Project Title**: Airline Survey Analysis
 - **Group Members**:
-  - Danish Mariam
-  - Kanjookaran Anugraha Antoo
+  - Syeda Mariam Danish
+  - Anugraha Antoo Kanjookaran
   - Onafeso Fiyifoluwa
-  - PAIDIMARRI AJAY
-  - Hariharakumar Rathianr
+  - Paidimarri Ajay
+  - Hariharakumar Rathianar
 
 ### Research Objectives
 1. **Objective 1**: Predict the level of satisfaction a passenger will have based on their ratings for services like Seat comfort, Food and drink, In-flight Wifi, Baggage handling, etc.
@@ -132,7 +132,7 @@
 - [R5 Notebook: Neural Networks](https://github.com/HWhr3000/F21DL_Coursework_grp2/tree/main/notebooks/R5%20Neural%20Netoworks)
 
 
-### Requirement Descriptions (R4–R5)
+## Requirement Descriptions (R4–R5)
 
 **Decision Trees**
 ![image](https://github.com/user-attachments/assets/f942477c-f6cd-4aaf-b3e7-b11299b2c92a)
@@ -164,7 +164,7 @@ All classifiers seem to generalize reasonably well to new data. The models are n
   ![image](https://github.com/user-attachments/assets/13708666-4aab-4685-800a-19dd2ab45734)
 **The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data. Despite its superior performance, there is still room for improvement, particularly in reducing false positive rates for dominant classes like happy. Further optimization, such as deeper architectures or transfer learning, could enhance results.
 
-### File / Folder Structure
+## File / Folder Structure
 - **data**: The dataset are stored in this folder where there are three dataset stored containing excel sheets & images of airline survey.
     - airline_passenger_satisfaction.csv - Contains dataset 1
     - test.csv & train.csv - Contains dataset 2
