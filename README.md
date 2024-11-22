@@ -8,7 +8,7 @@
 - **Group Members**:
   - Syeda Mariam Danish
   - Anugraha Antoo Kanjookaran
-  - Onafeso Fiyifoluwa
+  - Fiyifoluwa Onafeso
   - Paidimarri Ajay
   - Hariharakumar Rathianar
 
