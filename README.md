@@ -138,7 +138,7 @@ All classifiers seem to generalize reasonably well to new data. The models are n
 
   **Image Data**
   ![image](https://github.com/user-attachments/assets/13708666-4aab-4685-800a-19dd2ab45734)
-**The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data.
+**The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data. Despite its superior performance, there is still room for improvement, particularly in reducing false positive rates for dominant classes like happy. Further optimization, such as deeper architectures or transfer learning, could enhance results.
 
 ### File / Folder Structure
 - **data**: The dataset are stored in this folder where there are three dataset stored containing excel sheets & images of airline survey.
