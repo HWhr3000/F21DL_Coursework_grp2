@@ -6,11 +6,11 @@
 - **Group Name**: Dubai_PG 2 Dubai_PG
 - **Project Title**: Airline Survey Analysis
 - **Group Members**:
-  - Danish Mariam
-  - Kanjookaran Anugraha Antoo
-  - Onafeso Fiyifoluwa
-  - PAIDIMARRI AJAY
-  - Hariharakumar Rathianr
+  - Syeda Mariam Danish
+  - Anugraha Antoo Kanjookaran
+  - Fiyifoluwa Onafeso
+  - Ajay Kumar Paidimarri
+  - Hariharakumar Rathianar
 
 ### Research Objectives
 1. **Objective 1**: Predict the level of satisfaction a passenger will have based on their ratings for services like Seat comfort, Food and drink, In-flight Wifi, Baggage handling, etc.
@@ -132,8 +132,7 @@
 - [R5 Notebook: Neural Networks](https://github.com/HWhr3000/F21DL_Coursework_grp2/tree/main/notebooks/R5%20Neural%20Netoworks)
 
 
-### Requirement Descriptions (R4–R5)
-- **R4/R5**: **Results**:
+## Requirement Descriptions (R4–R5)
 
 **Decision Trees**
 ![image](https://github.com/user-attachments/assets/f942477c-f6cd-4aaf-b3e7-b11299b2c92a)
@@ -147,7 +146,7 @@ The Decision Tree is with best parameters from Grid Search results. We observed 
   ![image](https://github.com/user-attachments/assets/22cd1125-d1f7-499a-8027-d3aab339d110)
 
 Best Performing Algorithm: Categorical Naive Bayes
-  **Tabular Data**
+**Tabular Data**
   ![image](https://github.com/user-attachments/assets/3bb82fa7-c30f-4468-96a3-0906ba15354f)
 Analysis Using Keras Perceptron Function with 10-Fold Cross-Validation and Evaluation Metrics
 When validation is performed across the entire dataset, it gives an accuracy of 94%; as against 91% by cross-validation on the selected feature set.
@@ -161,11 +160,11 @@ Architecture 6 provides the best balance of high accuracy, specificity, sensitiv
 
 All classifiers seem to generalize reasonably well to new data. The models are not overfitting, as they perform similarly on unseen test data.
 
-  **Image Data**
+**Image Data**
   ![image](https://github.com/user-attachments/assets/13708666-4aab-4685-800a-19dd2ab45734)
 **The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data. Despite its superior performance, there is still room for improvement, particularly in reducing false positive rates for dominant classes like happy. Further optimization, such as deeper architectures or transfer learning, could enhance results.
 
-### File / Folder Structure
+## File / Folder Structure
 - **data**: The dataset are stored in this folder where there are three dataset stored containing excel sheets & images of airline survey.
     - airline_passenger_satisfaction.csv - Contains dataset 1
     - test.csv & train.csv - Contains dataset 2
