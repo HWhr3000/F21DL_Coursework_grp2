@@ -9,7 +9,7 @@
   - Syeda Mariam Danish
   - Anugraha Antoo Kanjookaran
   - Fiyifoluwa Onafeso
-  - Paidimarri Ajay
+  - Ajay Kumar Paidimarri
   - Hariharakumar Rathianar
 
 ### Research Objectives
