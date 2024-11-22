@@ -121,6 +121,11 @@
 - **R2**: **Prediction Outputs**:  
 - **R3**: **Prediction Inputs**: 
 - **R4/R5**: **Results**:
+
+  Decision Trees
+![image](https://github.com/user-attachments/assets/f942477c-f6cd-4aaf-b3e7-b11299b2c92a)
+The Decision Tree is with best parameters from Grid Search results. We observed that Tree 1 demonstrates a slightly better balance of precision, recall, and F1 score, although it has slightly lower test accuracy. Tree 2 performs equally well in terms of test accuracy compared to Tree 3, but it offers slightly better precision and recall. Tree 3, on the other hand, lags slightly in both precision and F1 score, making it a less optimal choice overall.
+
 **Bayes Net Algorithm**
   ![image](https://github.com/user-attachments/assets/22cd1125-d1f7-499a-8027-d3aab339d110)
 
