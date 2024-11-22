@@ -133,7 +133,6 @@
 
 
 ### Requirement Descriptions (R4–R5)
-- **R4/R5**: **Results**:
 
 **Decision Trees**
 ![image](https://github.com/user-attachments/assets/f942477c-f6cd-4aaf-b3e7-b11299b2c92a)
@@ -147,7 +146,7 @@ The Decision Tree is with best parameters from Grid Search results. We observed 
   ![image](https://github.com/user-attachments/assets/22cd1125-d1f7-499a-8027-d3aab339d110)
 
 Best Performing Algorithm: Categorical Naive Bayes
-  **Tabular Data**
+**Tabular Data**
   ![image](https://github.com/user-attachments/assets/3bb82fa7-c30f-4468-96a3-0906ba15354f)
 Analysis Using Keras Perceptron Function with 10-Fold Cross-Validation and Evaluation Metrics
 When validation is performed across the entire dataset, it gives an accuracy of 94%; as against 91% by cross-validation on the selected feature set.
@@ -161,7 +160,7 @@ Architecture 6 provides the best balance of high accuracy, specificity, sensitiv
 
 All classifiers seem to generalize reasonably well to new data. The models are not overfitting, as they perform similarly on unseen test data.
 
-  **Image Data**
+**Image Data**
   ![image](https://github.com/user-attachments/assets/13708666-4aab-4685-800a-19dd2ab45734)
 **The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data. Despite its superior performance, there is still room for improvement, particularly in reducing false positive rates for dominant classes like happy. Further optimization, such as deeper architectures or transfer learning, could enhance results.
 
