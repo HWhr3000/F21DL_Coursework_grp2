@@ -117,6 +117,21 @@
   - Arrival Delay column contains null values.
   - Mean values is taken for filling the null values in this dataset
 
+## Notebooks Overview
+
+### R2: Data Analysis and Exploration
+- [R2 Notebook: Data Analysis and Exploration](https://github.com/HWhr3000/F21DL_Coursework_grp2/blob/main/notebooks/R2_Data_analysis_exploration.ipynb)
+
+### R3: Clustering
+- [R3 Notebook: Clustering Final](https://github.com/HWhr3000/F21DL_Coursework_grp2/blob/main/notebooks/R3_Clustering_Final.ipynb)
+
+### R4: Baseline Training and Evaluation
+- [R4 Notebook: Baseline Training and Evaluation](https://github.com/HWhr3000/F21DL_Coursework_grp2/blob/main/notebooks/R4_Baseline_training_evaluation.ipynb)
+
+### R5: Neural Networks
+- [R5 Notebook: Neural Networks](https://github.com/HWhr3000/F21DL_Coursework_grp2/tree/main/notebooks/R5%20Neural%20Netoworks)
+
+
 ### Requirement Descriptions (R4–R5)
 - **R4/R5**: **Results**:
 
