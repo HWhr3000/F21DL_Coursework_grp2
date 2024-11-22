@@ -127,6 +127,7 @@
 
 ### R4: Baseline Training and Evaluation
 - [R4 Notebook: Baseline Training and Evaluation](https://github.com/HWhr3000/F21DL_Coursework_grp2/blob/main/notebooks/R4_Baseline_training_evaluation.ipynb)
+- [R4 Notebook: Logistic Regression](https://github.com/HWhr3000/F21DL_Coursework_grp2/blob/main/notebooks/R4_Logistics_Regression.ipynb)
 
 ### R5: Neural Networks
 - [R5 Notebook: Neural Networks](https://github.com/HWhr3000/F21DL_Coursework_grp2/tree/main/notebooks/R5%20Neural%20Netoworks)
