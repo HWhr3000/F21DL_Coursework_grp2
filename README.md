@@ -117,17 +117,12 @@
   - Arrival Delay column contains null values.
   - Mean values is taken for filling the null values in this dataset
 
-### Data Preparation Pipeline
-- **Overview**:
-  Describe the steps of your data preparation pipeline:
-  1. **Step 1**: Load the dataset and inspect for missing values.
-  2. **Step 2**: Populate null data by updating it with mean value and normalize the features.
-  3. **Step 3**: Visualize data trends and perform feature engineering.
-
 ### Requirement Descriptions (R2–R5)
 - **R2**: **Prediction Outputs**:  
 - **R3**: **Prediction Inputs**: 
 - **R4/R5**: **Results**:
+  ![image](https://github.com/user-attachments/assets/13708666-4aab-4685-800a-19dd2ab45734)
+**The CNN** outperformed all other models with the highest accuracy of **36.78%,** demonstrating its ability to effectively extract spatial features from the image data.
   - Results: 
 
 ### File / Folder Structure
@@ -135,7 +130,7 @@
     - airline_passenger_satisfaction.csv - Contains dataset 1
     - test.csv & train.csv - Contains dataset 2
     - folders train & validate contains image dataset.
+    - Models
 - **documentation**: The documentation folder contains weekly data.
 - **Notebooks**: All working Jupitor notebooks are kept here. These are loaded by individuals with separate trials run during weeks
-- **scripts**: Final Scripts are placed in this folder, the script is udpated as and when the finaliation is done.
 - **README.md**: Contains details of the project.
