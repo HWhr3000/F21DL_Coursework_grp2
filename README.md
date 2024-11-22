@@ -121,7 +121,10 @@
 - **R2**: **Prediction Outputs**:  
 - **R3**: **Prediction Inputs**: 
 - **R4/R5**: **Results**:
+**Bayes Net Algorithm**
+  ![image](https://github.com/user-attachments/assets/22cd1125-d1f7-499a-8027-d3aab339d110)
 
+Best Performing Algorithm: Categorical Naive Bayes
   **Tabular Data**
   ![image](https://github.com/user-attachments/assets/3bb82fa7-c30f-4468-96a3-0906ba15354f)
 Analysis Using Keras Perceptron Function with 10-Fold Cross-Validation and Evaluation Metrics
