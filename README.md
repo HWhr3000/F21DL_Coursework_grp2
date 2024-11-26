@@ -175,3 +175,4 @@ All classifiers seem to generalize reasonably well to new data. The models are n
 - **documentation**: The documentation folder contains weekly data.
 - **Notebooks**: All working Jupitor notebooks are kept here. These are loaded by individuals with separate trials run during weeks
 - **README.md**: Contains details of the project.
+- **Presentation**: F21DL.pdf
